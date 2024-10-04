@@ -2,8 +2,6 @@ import { Stack } from "aws-cdk-lib";
 import { Hitcounter } from "../lib/hitcounter";
 import { Code, Function, Runtime } from "aws-cdk-lib/aws-lambda";
 import { Capture, Template } from "aws-cdk-lib/assertions";
-import { Environment } from "aws-cdk-lib/aws-appconfig";
-import { Variable } from "aws-cdk-lib/aws-codepipeline";
 
 test("DynamoDB Table Created", () => {
   const stack = new Stack();
