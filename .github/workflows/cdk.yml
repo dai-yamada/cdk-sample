@@ -37,7 +37,7 @@ jobs:
         run: npm run test
 
       - name: CDK Diff Check
-        run: npm run cdk
+        run: npx cdk diff
 
       - name: CDK Deploy
         run: npx cdk deploy --require-approval never --all
