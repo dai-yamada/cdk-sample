@@ -8,10 +8,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "test:app": "jest --testMatch **/hitcounter.test.ts",
-    "cdk": "cdk",
-    "cdk:diff": "cdk diff || true",
-    "cdk:deploy": "cdk deploy --require-approval never"
+    "cdk": "cdk"
 
   },
   "devDependencies": {
